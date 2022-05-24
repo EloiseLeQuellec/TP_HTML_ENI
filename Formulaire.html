@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+<header>
+    <div>
+        <img src="images/mymusic_logo.png">
+    </div>
+    <div>
+        <h1>My music</h1>
+    </div>
+    <div>
+        <img src="images/avatar/avatar-tux_dark_vador-3.jpg">
+    </div>
+    <span>ENI, connecté</span>
+    <a href="https://outlook.office.com/mail/inbox/id/AAQkADJhZGU5YWViLWMwZTQtNDhkMi1iOWQzLTA2OGZlNTEwYzZ
+jNQAQANzshUegYN9OkowIqfI8oUk%3D" target="_blank">Mon compte</a> |
+    <a href="https://outlook.office.com/mail/inbox/id/AAQkADJhZGU5YWViLWMwZTQtNDhkMi1iOWQzLTA2OGZlNTEwYzZ
+jNQAQANzshUegYN9OkowIqfI8oUk%3D" target="_blank">Deconnexion</a>
+</header>
+<main>
+    <nav>
+        <ul>
+            <li><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal" target="_blank">Accueil</a>
+            </li>
+            <li><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal" target="_blank">Formulaire</a>
+            </li>
+            <li><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal" target="_blank">Jeux</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal" target="_blank">Musiques</a>
+            </li>
+        </ul>
+    </nav>
+    <h2>Mon Compte</h2>
+
+    <form> name="monFormulaire" action="" method="get"
+        <div>
+            <label for="Nom"> Nom : </label>
+            <input type="text" name="nom" id="Nom" placeholder="Votre nom ?"/>
+        </div>
+        <div>
+            <label for="Date de Naissance"> Date de Naissance : </label>
+            <input type="date" name="Date" id="Date de Naissance"/>
+        </div>
+        <div>
+            <label for="Prenom"> Prenom : </label>
+            <input type="text" name="prenom" id="Prenom" placeholder="Votre Prenom ?"/>
+        </div>
+        <div>
+            <label for="Groupe préferé"> Groupe préferé : </label>
+            <select name="Groupe préferé" id="Groupe préferé">
+                <option value="Epica">Epica</option>
+                <option value="metallica">metallica</option>
+                <option value="ACDC">ACDC</option>
+            </select>
+        </div>
+        <div>
+            <label for="Email"> Email : </label>
+            <input type="text" name="Email" id="Email" placeholder="Votre email ?"/>
+        </div>
+        <div>
+            <label for="téléphone"> Téléphone : </label>
+            <input type="tel" name="téléphone" id="téléphone" placeholder="Votre téléphone ?"/>
+        </div>
+        <div>
+            <label for="motdepasse"> Mot de Passe : </label>
+            <input type="password" name="motdepasse" id="motdepasse"/><br>
+        </div>
+        <div>
+            <label for="repetmotdepasse"> Repéter le mot de passe : </label>
+            <input type="password" name="motdepasse" id="repetmotdepasse"/>
+        </div>
+    </form>
+    <div> Formules abonnements :</div>
+    <table>
+        <thead>
+
+        <th></th>
+        <th><input type="radio" name="type"/> Premium+</th>
+        <th><input type="radio" name="type"/> Premium</th>
+        <th><input type="radio" name="type"/> Discovery</th>
+        </thead>
+        <tbody>
+        <tr>
+            <th>acces web</th>
+            <td><img src="images/icon-ok-32x32.png"></td>
+            <td><img src="images/icon-ok-32x32.png"></td>
+            <td><img src="images/icon-ok-32x32.png"></td>
+
+        </tr>
+        <tr>
+            <th>acces mobile</th>
+            <td><img src="images/icon-ok-32x32.png"></td>
+            <td><img src="images/icon-ok-32x32.png"></td>
+            <td><img src="images/icon-not-ok-32x32.png"></td>
+
+        </tr>
+        <tr>
+            <th>ecoute illimité</th>
+            <td><img src="images/icon-ok-32x32.png"></td>
+            <td><img src="images/icon-not-ok-32x32.png"></td>
+            <td><img src="images/icon-not-ok-32x32.png"></td>
+
+        </tr>
+            <th></th>
+            <td>
+                <label for="newsletters">Recevoir nos newsletters</label>
+                <input type="checkbox" name="newsletters" id="newsletters"/>
+            </td>
+            <td colspan="2">
+                 <label for="newsletters2">Recevoir les newsletters de nos partenaires</label>
+                <input type="checkbox" name="newsletters" id="newsletters2"/>
+            </td>
+        </tr>
+        <tr>
+
+        </tr>
+        </tbody>
+    </table>
+</main>
+<footer>
+    <a href="contact@eni-ecole.fr" target="_blank">ENI ECOLE</a>
+    <a href="https://www.eni-ecole.fr/" target="_blank">Copyright© ENI ECOLE Informatique</a>
+</footer>
+</body>
+</html>
